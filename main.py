@@ -78,4 +78,6 @@ plt.plot(x_eval, y_newton, 'b', label='Newton Interpolation')
 plt.plot(x_eval, y_lagrange, 'g', label='Lagrange Interpolation')
 plt.plot(x_eval, y_chebyshev, 'y', label='Chebyshev Interpolation')
 plt.legend()
+
+plt.savefig(f'./res/N{N}.png')
 plt.show()
